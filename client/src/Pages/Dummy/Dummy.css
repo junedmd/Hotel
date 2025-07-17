@@ -1,0 +1,79 @@
+.button-editor-wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 170px;
+  border: hidden;
+  background: transparent;
+  
+}
+
+/* Form Box Styling */
+.custom-form-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 320px;
+  margin-top: 10px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); */
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.custom-form-box h4 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="color"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="color"]:focus,
+input[type="number"]:focus {
+  border-color: #888;
+  outline: none;
+}
+
+/* Button Styles */
+.add-btn,
+.submit-btn {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.add-btn:hover,
+.submit-btn:hover {
+  background-color: #444;
+  transform: translateY(-1px);
+}

@@ -1,0 +1,199 @@
+.container {
+  height: 650px;
+  background-color: #2d2d2d;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  
+}
+
+.line2{
+  display: inline-block;
+  width: 1px;
+  height: 60px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.text2 {
+  color: #b68b59;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.text3 {
+  color: white;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.year-line {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 900px;
+  height: 100px;
+  margin-top: 0px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* The actual horizontal line */
+.line-track {
+  position: absolute;
+  top: 40px; /* Adjust based on circle size */
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, #b68b59 50%, white 50%);
+  z-index: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Year above */
+.year {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.gold-text {
+  color: #b68b59;
+}
+
+.gold-main {
+  color: #b68b59;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Circle sits exactly on the line */
+.circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 0;
+  transform: translateY(5px); /* moves circle down slightly to touch the line */
+}
+
+.gold {
+  background-color: #b68b59;
+}
+
+.white {
+  background-color: white;
+}
+
+.big {
+  width: 18px;
+  height: 18px;
+}
+
+.last-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #2d2d2d;
+  
+}
+
+
+.triangle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  z-index: 1;
+}
+.last-part{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 2;
+}
+.last-left{
+    background-color: #d9d9d9;
+    width: 45%;
+}
+.last-right {
+  width: 55%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.main-last{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+.main-last h2 {
+  font-size: 29px;
+  font-weight: 370;
+  margin-left: 20px;
+  
+}
+.text4{
+  text-align: start;
+}
+.logo-hotel{
+    height: 55px;
+    
+}
+.second-last{
+    text-align: start;
+    padding-left: 20px;
+    
+}
+.second-last h5 {
+  color: #555;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+.end{
+    margin-top: 10px;
+}
+.editable-input {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #555;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.editable-input:focus {
+  outline: none;
+  border-bottom: 1px solid #b68b59; /* optional underline on focus */
+}

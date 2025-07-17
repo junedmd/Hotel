@@ -1,0 +1,43 @@
+/* Container for the entire page */
+.contact {
+  position: relative;
+  z-index: 1;
+}
+
+.contact.main-part {
+  position: relative;
+  padding-bottom: 100px; /* space for overlap */
+  z-index: 1;
+}
+
+/* Middle form wrapper (overlapping area) */
+.contact-overlap {
+ position: absolute; /* <-- key! this makes it float */
+  top: 80%; /* halfway down the screen */
+  right: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+  pointer-events: none
+}
+
+/* Form container (ContactForm) */
+.contact-form-container {
+  transform: translateY(-50%); /* pull it halfway up to center overlap */
+  background-color: #2d2c2c;
+  padding: 20px;
+  width: 280px;
+  margin-right: 5%;
+  z-index: 20;
+  pointer-events: all; /* allow interaction inside */
+  position: relative;
+  
+}
+
+/* Bottom section (ContactMiddle) */
+.contact-last {
+  padding-top: 100px; /* Prevents form from overlapping this section too much */
+  position: relative;
+  z-index: 1;
+}

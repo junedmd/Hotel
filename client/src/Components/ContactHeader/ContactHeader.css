@@ -1,0 +1,26 @@
+.main-content{
+    height: 450px;
+    color: white;
+    font-weight: 100;
+    background: linear-gradient(to bottom, #1c1c1c, #c0c0c0, #1c1c1c);
+    font-family:Poppins;
+
+}
+.inside-contain{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.line {
+    display: inline-block;
+    width: 1px;            
+    height: 50px;          
+    background-color: white;
+    margin-right: 10px;
+    
+}
+.inside-contain p{
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: 50;
+}
