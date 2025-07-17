@@ -2,11 +2,7 @@ import React, { useState } from 'react';
 import "./Dummy.css";
 import { FiEdit } from "react-icons/fi"; // Import edit icon
 
-import Btn from "../../Components/Hotel/images/btn-logo.png";
-import img1 from "../../Components/Hotel/images/Item1.png";
-import img2 from "../../Components/Hotel/images/Item2.png";
-import img3 from "../../Components/Hotel/images/Item3.png";
-import img4 from "../../Components/Hotel/images/Item4.png";
+
 
 function Dummy() {
   const [isAdding, setIsAdding] = useState(false);
