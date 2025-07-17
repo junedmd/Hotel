@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Hotel.css";
-// import Dummy from '../../Pages/Dummy/Dummy';
-import btn from "./images/Btn-logo.png";
+import Dummy from '../../Pages/Dummy/Dummy';
+// import btn from "./images/Btn-logo.png";
 import img1 from "./images/Item1.png";
 import img2 from "./images/Item2.png";
 import img3 from "./images/Item3.png";
@@ -11,10 +11,10 @@ function Hotel() {
    
     return (
         <div className="hotel-wrapper">
-            {/* <Dummy/> */}
+            <Dummy/>
             <div className="hotel-info">
                 <div className="right-section">
-                    <img src={btn} alt="Play" className="play-btn" />
+                    {/* <img src={btn} alt="Play" className="play-btn" /> */}
                 </div>
 
                 <div className="left-section">
