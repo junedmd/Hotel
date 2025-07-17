@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.png"
+import logo from "./image/Logo.png"
 import { FaAngleDown } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Navbar = () => {
