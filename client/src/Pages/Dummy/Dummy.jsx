@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Dummy.css";
-import { FiEdit } from "react-icons/fi"; // Import edit icon
+import { FiEdit } from "react-icons/fi"; 
 
 
 
@@ -22,7 +22,7 @@ function Dummy() {
   const handleFormSubmit = async () => {
     setFinalButton({ ...formData });
     setIsAdding(false);
-    setIsEditing(false); // ✅ Reset editing state after submit
+    setIsEditing(false); 
 
     await fetch("/update-section", {
       method: "POST",

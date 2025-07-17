@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import "./Hotel.css";
-import Btn from "./images/Btn-logo.png";
+import Dummy from '../../Pages/Dummy/Dummy';
+import btn from "./images/Btn-logo.png";
 import img1 from "./images/Item1.png";
 import img2 from "./images/Item2.png";
 import img3 from "./images/Item3.png";
 import img4 from "./images/Item4.png";
-import Dummy from '../../Pages/Dummy/Dummy';
+
 function Hotel() {
    
     return (
@@ -13,7 +14,7 @@ function Hotel() {
             <Dummy/>
             <div className="hotel-info">
                 <div className="right-section">
-                    <img src={Btn} alt="Play" className="play-btn" />
+                    <img src={btn} alt="Play" className="play-btn" />
                 </div>
 
                 <div className="left-section">
