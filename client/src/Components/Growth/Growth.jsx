@@ -9,7 +9,7 @@ function Growth() {
 
   const handleBlur = async () => {
     try {
-      await fetch("/update-section", {
+      await fetch("http://localhost:5000/update-section", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -18,7 +18,8 @@ function Growth() {
           value: text2,
         }),
       });
-      console.log("Edit sent!");
+      alert("api is working");
+      console.log(`Juned is don`);
     } catch (err) {
       console.error("Edit failed", err);
     }
